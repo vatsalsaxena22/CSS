@@ -1,0 +1,33 @@
+:root {
+  --primary-color: rgb(21, 114, 182); /* CSS Blue */
+}
+
+body {
+  font-family: sans-serif;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 80px;
+}
+header h1 span {
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px;
+}
+header img {
+  margin-top: 20px;
+  width: 10em;
+  animation: cssLogo 2s ease-in-out;
+}
+@keyframes cssLogo {
+  0% {
+    transform: scale(500%);
+    margin-top: 25%;
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
